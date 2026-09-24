@@ -12,7 +12,7 @@ Untersucht wird, welche Interpretationsangebote entstehen, wenn dem Sprachmodell
 
 ## Datei
 
-[Monolithischer_Prompt.md](Monolithischer_Prompt.md) enthält den in Abschnitt 12.4 verwendeten monolithischen Prompt (v2).
+[Monolithischer_Prompt.md](Monolithischer_Prompt.md) enthält den in Abschnitt 12.4 verwendeten monolithischen Prompt.
 
 Die Datei enthält ausschließlich den kopierbaren Instruktionstext. Redaktionelle Erläuterungen und Metadaten stehen außerhalb des Prompts.
 
