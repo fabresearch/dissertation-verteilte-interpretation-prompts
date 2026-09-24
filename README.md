@@ -5,13 +5,11 @@ Begleitmaterialien zu Kapitel 12 der Dissertation von Fabio Roman Lieder.
 Das Repository dokumentiert Prompts und Module des untersuchten
 Konfigurationswegs. Die Materialien werden schrittweise ergänzt.
 
-## Geplanter Aufbau
-
 ## Materialien
 
 - [Naives Prompting](01-naives-prompting/README.md) – Abschnitt 12.3; Prompt und Erläuterungen vorhanden.
 - [Monolithisches Prompting](02-monolithisches-prompting/README.md) – Abschnitt 12.4; Prompt und Erläuterungen vorhanden.
-- [Modulares Prompting](03-modulares-prompting/README.md) – Abschnitt 12.5; im Aufbau.
+- [Modulares Prompting](03-modulares-prompting/README.md) – Abschnitt 12.5; Module und Erläuterungen vorhanden.
 - [Agentisches Prompting](04-agentisches-prompting/README.md) – Abschnitt 12.6; im Aufbau.
 
 ## Fassungen und Verwendung
