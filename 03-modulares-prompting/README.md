@@ -1,55 +1,50 @@
 # Modulares Prompting
 
-Bezug zur Dissertation: Kapitel 12.5.
-
-Status: Im Aufbau.
+Bezug zur Dissertation: Abschnitt 12.5.
 
 ## Ansatz
 
-Das modulare Prompting verteilt die Interpretationsarbeit auf
-aufeinander bezogene Arbeitsmodule. Ein gemeinsames Grundlagenmodul
-wird jeweils mit dem zuständigen Arbeitsmodul kombiniert.
+Das modulare Prompting verteilt die Instruktionen des monolithischen Prompts auf einen gemeinsamen Grundlagentext und fünf Arbeitsmodule. Für jeden Arbeitsschritt wird eine neue Konversation begonnen. Die forschende Person stellt die Eingaben zusammen, prüft die Modellvorschläge und entscheidet, welche Ergebnisse in den nächsten Arbeitsschritt eingehen.
 
-Im untersuchten Vorgehen übernimmt die forschende Person die
-Zusammenstellung der Eingaben, die dialogische Bearbeitung der
-Vorschläge und die Übergabe der Ergebnisse zwischen den Sitzungen.
+Die Aufteilung folgt den Aufgaben des untersuchten Arrangements. Diskursorganisation, Textsortenbestimmung und Zusammenfassung sind dabei Teil der reflektierenden Interpretation, nicht zusätzliche Verfahren neben ihr.
 
-## Vorgesehene Dateien
+## Dateien
 
 | Datei | Funktion |
 |---|---|
-| `EXP-M0-Grundlagen.md` | Gemeinsame methodische Grundlagen |
-| `EXP-M1-Formulierende-Interpretation.md` | Formulierende Interpretation |
-| `EXP-M2-Diskursorganisation.md` | Analyse der Diskursorganisation |
-| `EXP-M3-Textsorten.md` | Textsortenbestimmung |
-| `EXP-M4-Reflektierende-Interpretation.md` | Reflektierende Interpretation |
-| `EXP-M5-Zusammenfassung.md` | Zusammenführung und offene Fragen |
+| [EXP-M0-Grundlagen.md](EXP-M0-Grundlagen.md) | Gemeinsamer Grundlagentext für alle Arbeitsschritte |
+| [EXP-M1-Formulierende-Interpretation.md](EXP-M1-Formulierende-Interpretation.md) | Formulierende Interpretation mit Ober- und Unterthemen |
+| [EXP-M2-Diskursorganisation.md](EXP-M2-Diskursorganisation.md) | Analyse der Diskursorganisation und des Diskursmodus |
+| [EXP-M3-Textsorten.md](EXP-M3-Textsorten.md) | Textsortenmäßige Einordnung der Beiträge |
+| [EXP-M4-Reflektierende-Interpretation.md](EXP-M4-Reflektierende-Interpretation.md) | Ausführliche Interpretation unter Einbezug der Vorarbeiten |
+| [EXP-M5-Zusammenfassung.md](EXP-M5-Zusammenfassung.md) | Verdichtende Zusammenfassung und offene Fragen |
 
-## Vorgesehener Ablauf
+Die Dateien enthalten die kopierbaren Instruktionstexte einschließlich ihrer Überschriften und Eingabe-/Ausgabeangaben. Die YAML-Metadaten der lokalen Arbeitsdateien wurden entsprechend der Durchführungsanleitung weggelassen. Der übrige Wortlaut wurde nicht verändert.
 
-Für jedes Arbeitsmodul wird eine neue Konversation begonnen.
-Die Eingabe besteht aus dem Grundlagenmodul M0, dem jeweiligen
-Arbeitsmodul, dem Transkriptausschnitt und den benötigten Vorarbeiten.
+## Verwendung
 
-Die vorgesehene Übergabestruktur lautet:
+Jede neue Konversation erhält den vollständigen Grundlagentext M0, das jeweilige Arbeitsmodul und den Transkriptausschnitt. Je nach Arbeitsschritt werden außerdem die zuvor geprüften Ergebnisse beigefügt.
 
-1. M1 erhält den Transkriptausschnitt.
-2. M2 erhält zusätzlich die konsolidierte formulierende Interpretation.
-3. M3 erhält ebenfalls die formulierende Interpretation, aber nicht
-   das Ergebnis von M2.
-4. M4 erhält die Ergebnisse von M1, M2 und M3.
-5. M5 erhält die konsolidierten Ergebnisse des bisherigen Durchlaufs.
+### Vorgesehene Abfolge
 
-Modellvorschläge werden innerhalb der jeweiligen Konversation geprüft
-und gegebenenfalls überarbeitet. Die forschende Person entscheidet,
-welche Fassung weitergegeben wird.
+| Arbeitsschritt | Eingaben zusätzlich zu M0, Arbeitsmodul und Transkriptausschnitt |
+|---|---|
+| M1 – Formulierende Interpretation | Keine Vorarbeiten |
+| M2 – Diskursorganisation | Konsolidierte formulierende Interpretation aus M1 |
+| M3 – Textsorten | Konsolidierte formulierende Interpretation aus M1; das Ergebnis von M2 wird nicht beigefügt |
+| M4 – Reflektierende Interpretation | Konsolidierte Ergebnisse aus M1, M2 und M3 |
+| M5 – Zusammenfassung | Konsolidierte Ergebnisse aus M1, M2, M3 und M4 |
+
+Die Modellvorschläge werden innerhalb der jeweiligen Konversation am Transkript und unter methodischen Gesichtspunkten geprüft. Rückfragen und Überarbeitungen bleiben in dieser Konversation. Als konsolidierte Fassung wird der von der forschenden Person geprüfte und für die Weiterarbeit ausgewählte Text gesichert. Diese Fassung wird anschließend den vorgesehenen Folgeschritten beigefügt, nicht der gesamte bisherige Gesprächsverlauf.
+
+Die Tabelle beschreibt die vorgesehene Arbeitsordnung. Der tatsächliche Durchlauf, die Interventionen und die Abweichungen von dieser Ordnung werden in Abschnitt 12.5 ausgewertet.
 
 ## Dokumentation und Material
 
-Die Übergabestruktur beschreibt die vorgesehene Arbeitsordnung.
-Der tatsächliche Verlauf und seine Abweichungen werden in der
-Dissertation ausgewertet.
+Die Module wurden aus dem monolithischen Prompt v2 entwickelt. Die vorliegende Sammlung dokumentiert die in Abschnitt 12.5 beschriebene Modulanordnung; sie enthält keine nachträglich methodisch verbesserte Fassung. Spätere Überarbeitungen werden gesondert gekennzeichnet.
 
-Transkripte, Gesprächsexporte und fallbezogene Ergebnisdateien sind
-nicht Bestandteil dieser Promptsammlung. Spätere Änderungen der
-Module werden als eigene Fassungen gekennzeichnet.
+Im untersuchten Durchlauf wurde eine Passage aus der Gruppendiskussion Achondrit verwendet. Transkripte, Gesprächsexporte und fallbezogene Ergebnisdateien sind nicht Bestandteil dieser Veröffentlichung. Für eine eigene Verwendung muss ein zur Verarbeitung freigegebener Transkriptausschnitt gesondert bereitgestellt werden.
+
+Die erzeugten Interpretationsvorschläge sind am Material und mit den Verfahren der Dokumentarischen Methode zu prüfen.
+
+[Zur Übersicht](../README.md)
