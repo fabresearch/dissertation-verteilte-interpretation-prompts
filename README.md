@@ -7,10 +7,12 @@ Konfigurationswegs. Die Materialien werden schrittweise ergänzt.
 
 ## Geplanter Aufbau
 
-- 01-naives-prompting
-- 02-monolithisches-prompting
-- 03-modulares-prompting
-- 04-agentisches-prompting
+## Materialien
+
+- [Naives Prompting](01-naives-prompting/README.md) – Abschnitt 12.3; Prompt und Erläuterungen vorhanden.
+- [Monolithisches Prompting](02-monolithisches-prompting/README.md) – Abschnitt 12.4; Prompt und Erläuterungen vorhanden.
+- [Modulares Prompting](03-modulares-prompting/README.md) – Abschnitt 12.5; im Aufbau.
+- [Agentisches Prompting](04-agentisches-prompting/README.md) – Abschnitt 12.6; im Aufbau.
 
 ## Fassungen und Verwendung
 
