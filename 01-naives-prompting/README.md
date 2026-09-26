@@ -55,3 +55,5 @@ in der dokumentierten Promptfassung nicht nachträglich korrigiert.
 
 Die Auswertung der erzeugten Interpretation und die Grenzen
 des Einzeldurchlaufs werden in Kapitel 12.3 erläutert.
+
+[Zur Übersicht](../README.md)
